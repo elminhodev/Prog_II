@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Coxinha;
 
-/**
- *
- * @author zezz
- */
 public class Maquinadecoxinhas {
+    private int estoque;
+
+    public Maquinadecoxinhas() {
+        this.estoque = 0;
+    }
+    get int getEstoque() {
+        return estoque;
+    }
+    public void setEstoque(int abastecer) {
+        if(abastecer > 0) {
+            estoque += abastecer;
+        }
+    }
     
 }
